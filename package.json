@@ -1,0 +1,25 @@
+{
+  "name": "bookstore-api",
+  "version": "1.0.0",
+  "description": "simple bookstore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha __tests__/**/*.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synic1/bookstore-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synic1/bookstore-api/issues"
+  },
+  "homepage": "https://github.com/Synic1/bookstore-api#readme"
+}
